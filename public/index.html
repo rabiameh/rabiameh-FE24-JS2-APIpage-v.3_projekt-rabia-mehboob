@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Page v.3</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <header id="navbar">
+      <div class="logo">API Page v.3</div>
+      <div class="nav-container">
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#api">API Page</a></li>
+            <li><a href="#about-heading">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-controls">
+        <button id="hamburger" aria-label="Menu">☰</button>
+        <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
+        
+      </div>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Welcome to API Page v.3</h1>
+        <p>
+          🚀 Explore our dynamic, real-time APIs and bring your projects to life with live data! 🌐 Unlock endless possibilities and elevate your development journey effortlessly! 💡✨
+        </p>
+        <a href="#api" class="cta-button">Explore APIs 🚀</a>
+      </section>
+      <section id="api">
+
+        <div class="api-links">
+          <h2>Explore Our APIs</h2>
+          <ul>
+            <li><a href="./weather.html">🌦️ Weather Checker</a></li>
+            <li><a href="./currency.html">💱 Currency Converter</a></li>
+            <li><a href="./flickr.html">🔍 Flicker View </a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 id="about-heading">🌟 About Us 🌟</h2>
+        <p>
+          We are a passionate team of innovators on a mission to empower developers with real-time, cutting-edge APIs. 🚀 Whether you're building the next big thing or enhancing your current projects, our modern APIs deliver speed, accuracy, and seamless integration.
+          
+          💡 Our Vision: To bridge the gap between complex data and effortless development, making innovation accessible to everyone.
+          
+          🌐 What We Offer:
+          ✅ Live, Real-Time Data – Stay updated with the freshest information.
+          ✅ User-Friendly APIs – Easy-to-use, robust, and developer-focused.
+          ✅ Continuous Innovation – Always evolving to meet your needs.
+          
+          Join us in shaping the future—one API at a time! 💻✨
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-email">📧 Email: <a href="mailto:rabiamansoor816@gmail.com">rabiamansoor816@gmail.com</a></p>
+        <div class="contact-links">
+          <a href="https://github.com/yourusername/repo" target="_blank" class="contact-btn">🔗 GitHub</a>
+          <a href="https://yourdeploymentlink.com" target="_blank" class="contact-btn">🚀 Live Demo</a>
+        </div>
+      </section>
+      
+    </main>
+    <script src="../src/main.js" type="module"></script>
+    <script src="../src/components/darkMode.js" type="module"></script>
+    <script src="../src/components/hamburger.js" type="module"></script>
+  </body>
+</html>

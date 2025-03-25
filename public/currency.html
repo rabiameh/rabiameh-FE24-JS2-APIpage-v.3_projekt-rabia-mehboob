@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+
+  <section id="currency-converter">
+    <a href="index.html#api" class="back-button">⬅️ Back</a>
+    
+    <h1>💱 Currency Converter</h1>
+
+    <div class="converter-container">
+      <div class="input-group">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" placeholder="Enter amount" />
+      </div>
+
+      <div class="dropdown-group">
+        <label for="fromCurrency">From:</label>
+        <select id="fromCurrency"></select>
+      </div>
+
+      <div class="dropdown-group">
+        <label for="toCurrency">To:</label>
+        <select id="toCurrency"></select>
+      </div>
+
+      <button id="convertBtn">Convert 🔄</button>
+
+      <div id="result" class="result-display"></div>
+    </div>
+  </section>
+
+  <script src="../src/api/currencyApi.js" type="module"></script>
+  <script src="../src/components/darkMode.js" type="module"></script>
+</body>
+</html>
